@@ -8,61 +8,6 @@
 <meta charset="utf-8">
 </head>
 
-<style>
-
-* {
-	margin: 0;
-	padding: 0;
-}
-
-h1 {
-    color: #38374e;
-    text-align: center;
-    text-shadow: 2px 4px 2px #5b5886;
-    font-family: monospace;
-    margin-top: 9px;
-    font-size: 41px;
-}
-
-p {
-    font-size: 28px;
-    font-family: cursive;
-    margin-top: 9px;
-    margin-left: 6px;
-}
-
-img {
-    width: 17%;
-    height: 67%;
-    margin-left: 552px;
-}
-
-#p {
-    color: #38374e;
-    text-align: center;
-    text-shadow: 2px 4px 2px #5b5886;
-    font-family: monospace;
-    margin-top: 9px;
-    font-size: 41px;
-    font-weight: bold;
-}
-
-.none {
-    font-size: 19px;
-    font-family: normal;
-}
-
-a {
-	text-decoration: none;
-	color: blue;
-}
-
-a:hover {
-	text-decoration: underline;
-	color: red;
-}
-</style>
-
 <!-- end head -->
 
 <body>
