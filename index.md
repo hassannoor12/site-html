@@ -1,37 +1,108 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
 
-You can use the [editor on GitHub](https://github.com/hassannoor12/site-html/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<!-- head -->
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<head>
+<title>My Website</title>
+<meta charset="utf-8">
+</head>
 
-### Markdown
+<style>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* {
+	margin: 0;
+	padding: 0;
+}
 
-```markdown
-Syntax highlighted code block
+h1 {
+    color: #38374e;
+    text-align: center;
+    text-shadow: 2px 4px 2px #5b5886;
+    font-family: monospace;
+    margin-top: 9px;
+    font-size: 41px;
+}
 
-# Header 1
-## Header 2
-### Header 3
+p {
+    font-size: 28px;
+    font-family: cursive;
+    margin-top: 9px;
+    margin-left: 6px;
+}
 
-- Bulleted
-- List
+img {
+    width: 17%;
+    height: 67%;
+    margin-left: 552px;
+}
 
-1. Numbered
-2. List
+#p {
+    color: #38374e;
+    text-align: center;
+    text-shadow: 2px 4px 2px #5b5886;
+    font-family: monospace;
+    margin-top: 9px;
+    font-size: 41px;
+    font-weight: bold;
+}
 
-**Bold** and _Italic_ and `Code` text
+.none {
+    font-size: 19px;
+    font-family: normal;
+}
 
-[Link](url) and ![Image](src)
-```
+a {
+	text-decoration: none;
+	color: blue;
+}
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+a:hover {
+	text-decoration: underline;
+	color: red;
+}
+</style>
 
-### Jekyll Themes
+<!-- end head -->
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hassannoor12/site-html/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<body>
 
-### Support or Contact
+	<div>
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<div id="head">
+
+<h1>My First Web Site </h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+<img src="http://www.freeiconspng.com/uploads/person-outline-icon-png-person-outline-icon-png-person-17.png" alt="man">
+
+</div>
+
+<div id="a">
+
+<p id="p">about me </p>
+<p class="none">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+</p>
+
+</div>
+
+
+<div id="w">
+
+<p class="none">
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa <strong><a href="https://www.google.com">qui officia deserunt mollit</a></strong> anim id est laborum.
+
+</p>
+
+<p class="none"> Anujd :)</p>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
